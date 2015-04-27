@@ -3,8 +3,9 @@ from django.http import HttpResponse
 from django.shortcuts import render_to_response
 # Create your views here.
 
-def index(request):
+
+def test(request):
     return HttpResponse("<h1>Project Romulus</h1><br><p>under construction...</p>")
 
-def html(request):
+def index(request):
     return render_to_response('index.html')
