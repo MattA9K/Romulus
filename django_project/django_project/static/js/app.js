@@ -366,7 +366,7 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
         // Advanced Datatables
         .state('datatablesAdvanced', {
             url: "/datatables/advanced.html",
-            templateUrl: "views/datatables/advanced.html",
+            templateUrl: "/static/views/datatables/advanced.html",
             data: {pageTitle: 'Advanced Datatables'},
             controller: "GeneralPageController",
             resolve: {
