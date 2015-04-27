@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
     # url(r'^Romulus/', include('Romulus.urls')),
     url(r'^$', 'Romulus.views.index'),
+    url(r'^test', 'Romulus.views.html'),
 
     url(r'^admin/', include(admin.site.urls)),
 )
