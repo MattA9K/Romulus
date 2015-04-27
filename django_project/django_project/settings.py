@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Romulus',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -88,4 +89,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
     '/home/django/django_project/static/',
+)
+
+TEMPLATE_DIRS = (
+    '/home/django/django_project/templates/',
 )

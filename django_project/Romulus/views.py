@@ -7,4 +7,4 @@ def index(request):
     return HttpResponse("<h1>Project Romulus</h1><br><p>under construction...</p>")
 
 def html(request):
-    return render_to_response('index.html')
+    return render_to_response('home.html')
