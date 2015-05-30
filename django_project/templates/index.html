@@ -1,166 +1,828 @@
 <!DOCTYPE html>
-<!-- 
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.2
-Version: 3.7.0
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
-<!--[if IE 8]> <html lang="en" class="ie8 no-js" data-ng-app="MetronicApp"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js" data-ng-app="MetronicApp"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en" data-ng-app="MetronicApp">
-<!--<![endif]-->
-<!-- BEGIN HEAD -->
-<head>
-<title data-ng-bind="'Metronic AngularJS | ' + $state.current.data.pageTitle"></title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flanzo is a blazing fast responsive HTML5 CSS3 Bootstrap 3 template featuring great hover effects, responsive lightbox, working contact form, blog page and more">
+    <meta name="author" content="Mamoot Studio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flanzo | Responsive HTML5 CSS3 Bootstrap 3 Template</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300,800' rel='stylesheet' type='text/css'>
+    <!-- PLUGINS-CSS-->
+    <!--===============================================================-->   
+    <link rel="stylesheet" href="css-theme/font-awesome.min.css" type="text/css" >
+    <link rel="stylesheet" href="css-theme/nivo-lightbox.min.css" type="text/css" >
+    <!-- THEME-CSS-->
+    <!--===============================================================--> 
+    <link rel="stylesheet" href="css-theme/theme.css" type="text/css">
+    <link rel="stylesheet" href="css-theme/animate.min.css" type="text/css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body data-spy="scroll" data-target=".scroll-bootstrap" data-offset="50">
+  <!-- NAVBAR-->
+  <!--===============================================================-->
+  <nav class="navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="scroll-smooth" href="#home">
+          <img class="navbar-brand" src="images/logo.png" alt="logo">
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="scroll-bootstrap collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="scroll-smooth" href="#home">Home</a></li>
+          <li><a class="scroll-smooth" href="#services">Services</a></li>
+          <li><a class="scroll-smooth" href="#work">Work</a></li>
+          <li><a class="scroll-smooth" href="#news-blog">Posts</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="blog.html">Blog Page </a></li>
+              <li><a href="http://themes.mamootstudio.com/flanzo-1-2/option-2/index.html">HOME ALT</a></li>
+            </ul>
+          </li>
+          <li><a class="scroll-smooth" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- INTRO-->
+  <!--===============================================================-->
+<div id="home">
+  <div class="bg-intro">
+    <div class="container container-intro">
+      <div class="row-intro row">
+        <div class="col-sm-5 col-xs-12">
+          <h1 class="title-intro animated fadeInDown">Flat portfolio</h1>
+          <h2 class="subtitle-intro animated fadeInLeft">Blazing fast, fully responsive, nice hover effects, price-table, working-contact form and more !</h2>
+          <div class="btn-delay animated fadeInUp">
+            <a href="#features" class="btn btn-white scroll-smooth">GET STARTED</a>
+          </div>
+        </div>
+        <!-- SLIDER-BROWSER-->
+        <!--===============================================================-->
+        <div class="col-browser col-sm-7 col-xs-12">
+          <div class="col-sl animated fadeInDown"> 
+            <img class="img-browser" src="images/browser-slider/browser.png" alt="browser">
+            <div class="wrapper-sl wrapper-browser">
+              <ul id="slider-intro" class="slider" >
+                <li><img src="images/browser-slider/652x340.gif" alt="slide-1"/></li>
+                <li><img src="images/browser-slider/652x340.gif" alt="slide-2"/></li>
+              </ul>
+                <div class="wrapper-nav">
+                  <div class="div-p div-p-browser"><i id="p-intro"></i></div>
+                  <div class="div-n div-n-browser"><i id="n-intro"></i></div>
+                </div>
+            </div>
+          </div>
+        </div><!-- SLIDER-BROWSER-END-->
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- FEATURES-->
+  <!--===============================================================-->
+<div id="features">
+  <div class="bg-features">
+    <div class="container">
+      <div class="row-features row">
+        <div class="col-features col-sm-4 wow fadeInLeft">
+          <img src="images/features/responsive.png" alt="features-1">
+          <h1 class="title-features">RESPONSIVE</h1>
+          <p class="p-features">Every element is coded responsive. Etiam porta sem malesuada magna mollis euismod. </p>
+        </div>
+        <div class="col-features col-sm-4 wow fadeInUp">
+          <img src="images/features/pixel-perfect.png" alt="features-2">
+          <h1 class="title-features">PIXEL PERFECT</h1>
+          <p class="p-features">Pixel perfect design elements, nisi erat porttitor ligula, eget lacinia odio sem nec elit porttitor. </p>
+        </div>
+        <div class="col-features col-sm-4 wow fadeInRight">
+          <img src="images/features/blazing-fast.png" alt="features-3">
+          <h1 class="title-features">BLAZING FAST</h1>
+          <p class="p-features">Fast performance on any device, cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- IPHONE -->
+  <!--===============================================================-->
+  <div class="bg-iphone">
+    <div class="container">
+      <img class="img-triangle" src="images/triangle.png" alt="triangle">
+      <div class="row-iphone row">
+        <!-- IPHONE -ICONS -->
+        <div class="col-sm-4 hidden-xs">
+          <div class="iphone-wrapper wow fadeInLeft">
+            <img class="img-responsive" alt="iphone" src="images/iphone-bg.png" />
+            <div class="iphone-icons">
+              <a href="#content-1" data-toggle="tab">
+                <i class="fa fa-cloud wow fadeInLeft" data-wow-delay="0.1s"></i>
+              </a>
+              <a href="#content-2" data-toggle="tab">
+                <i class="fa fa-coffee wow fadeInLeft" data-wow-delay="0.2s"></i>
+              </a>
+              <br>
+              <a href="#content-3" data-toggle="tab">
+                <i class="fa fa-camera wow fadeInUp" data-wow-delay="0.3s"></i>
+              </a>
+              <a href="#content-4" data-toggle="tab">
+                <i class="fa fa-comments wow fadeInUp" data-wow-delay="0.4s"></i>
+              </a>
+            </div>
+          </div>
+        </div> 
+        <!-- IPHONE TAB CONTENTS-->
+        <div class="tab-content">
+        <!-- CONTENT-1-->
+          <div class="tab-pane fade in active" id="content-1">  
+            <div class="col-sm-offset-1 col-sm-6 hidden-xs">
+              <h2 class="title-iphone wow fadeInDown">IPHONE TAB</h2>
+              <p class="p-iphone wow fadeInUp">Click on the Retina-Ready icons on the iphone to change the content.</p>
+              <a href="#contact" class="btn btn-white scroll-smooth wow fadeInRight">Get in touch</a>
+            </div>
+          </div>
+        <!-- CONTENT-2-->
+          <div class="tab-pane fade" id="content-2">
+            <div class="col-sm-offset-1 col-sm-6 hidden-xs">
+              <h2 class="title-iphone">IPHONE TAB-2</h2>
+              <p class="p-iphone">You can put any content here, everything is responsive down to mobile phone. Cupidatat ea kevin, adipisicing spare ribs kielbasa brisket ground round beef ribs dolore prosciutto mollit non ham hock et. </p>
+            </div>
+          </div>
+        <!-- CONTENT-3-->
+          <div class="tab-pane fade" id="content-3">  
+            <div class="col-sm-offset-1 col-sm-6 hidden-xs">
+              <h2 class="title-iphone">IPHONE TAB-3</h2>
+              <p class="p-iphone">You can put any content here, everything is responsive down to mobile phone. Cupidatat ea kevin, adipisicing spare ribs kielbasa brisket ground round beef ribs dolore prosciutto mollit non ham hock et. </p>
+            </div>
+          </div>
+        <!-- CONTENT-4-->
+          <div class="tab-pane fade" id="content-4">
+            <div class="col-sm-offset-1 col-sm-6 hidden-xs">
+              <h2 class="title-iphone">IPHONE TAB-4</h2>
+              <p class="p-iphone">You can put any content here, everything is responsive down to mobile phone. Cupidatat ea kevin, adipisicing spare ribs kielbasa brisket ground round beef ribs dolore prosciutto mollit non ham hock et. </p>
+            </div>
+          </div>
+        </div>
+        <!-- IPHONE AT EXTRA SMALL--> 
+        <!-- IPHONE TAB CONTENTS-->
+        <div class="tab-content">
+        <!-- CONTENT-1-->
+          <div class="tab-pane fade in active" id="content-1-xs">  
+            <div class="col-xs-12 col-xs-iphone visible-xs">
+              <h2 class="title-iphone">SHOWCASE</h2>
+              <p class="p-iphone">Showcase your work in this beatiful, responsive, flat iphone screen.</p>
+              <a href="#contact" class="btn btn-white scroll-smooth">Get in touch</a>
+            </div>
+          </div>
+        <!-- CONTENT-2-->
+          <div class="tab-pane fade" id="content-2-xs">
+            <div class="col-xs-12 col-xs-iphone visible-xs">
+              <h2 class="title-iphone">IPHONE TAB-2</h2>
+              <p class="p-iphone">You can put any content here, everything is responsive down to mobile phone. Cupidatat ea kevin, adipisicing spare ribs kielbasa brisket ground round beef ribs dolore prosciutto mollit non ham hock et. </p>
+            </div>
+          </div>
+        <!-- CONTENT-3-->
+          <div class="tab-pane fade" id="content-3-xs">  
+            <div class="col-xs-12 col-xs-iphone visible-xs">
+              <h2 class="title-iphone">IPHONE TAB-3</h2>
+              <p class="p-iphone">You can put any content here, everything is responsive down to mobile phone. Cupidatat ea kevin, adipisicing spare ribs kielbasa brisket ground round beef ribs dolore prosciutto mollit non ham hock et. </p>
+            </div>
+          </div>
+        <!-- CONTENT-4-->
+          <div class="tab-pane fade" id="content-4-xs">
+            <div class="col-xs-12 col-xs-iphone visible-xs">
+              <h2 class="title-iphone">IPHONE TAB-4</h2>
+              <p class="p-iphone">You can put any content here, everything is responsive down to mobile phone. Cupidatat ea kevin, adipisicing spare ribs kielbasa brisket ground round beef ribs dolore prosciutto mollit non ham hock et. </p>
+            </div>
+          </div>
+        </div>
+        <!-- IPHONE ICONS -->
+        <div class="col-xs-12 visible-xs">
+          <div class="iphone-wrapper">
+            <img class="img-responsive" alt="iphone" src="images/iphone-bg.png" />
+            <div class="iphone-icons">
+              <a href="#content-1-xs" data-toggle="tab">
+                <i class="fa fa-cloud"></i>
+              </a>
+              <a href="#content-2-xs" data-toggle="tab">
+                <i class="fa fa-coffee"></i>
+              </a>
+              <br>
+              <a href="#content-3-xs" data-toggle="tab">
+                <i class="fa fa-camera"></i>
+              </a>
+              <a href="#content-4-xs" data-toggle="tab">
+                <i class="fa fa-comments"></i>
+              </a>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <!-- SERVICES-->
+  <!--===============================================================-->
+<div id="services">
+  <div class="bg-services">
+    <div class="container">
+      <div class="row-services-header row">
+        <div class="col-sm-12 wow fadeInUp">
+          <h1 class="header-title">OUR SERVICES</h1>
+          <h2 class="subtitle">Include Font Awesome Retina icon-fonts</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row-services row">
+        <div class="col-services col-sm-4 wow fadeInLeft">
+          <span class="glyphicon glyphicon-search"></span>
+          <h3 class="title-services">Lorem Ipsum</h3>
+          <p class="p-services">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+        <div class="col-services col-sm-4 wow fadeInDown" data-wow-delay="0.3s">
+          <span class="glyphicon glyphicon-send"></span>
+          <h3 class="title-services">Lorem Ipsum</h3>
+          <p class="p-services">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+        <div class="col-services col-sm-4 wow fadeInRight">
+          <span class="glyphicon glyphicon-camera"></span>
+          <h3 class="title-services">Lorem Ipsum</h3>
+          <p class="p-services">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+      </div>
+      <div class="row-services-last row">
+        <div class="col-services col-sm-4 wow fadeInLeft">
+          <span class="glyphicon glyphicon-facetime-video"></span>
+          <h3 class="title-services">Lorem Ipsum</h3>
+          <p class="p-services">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+        <div class="col-services col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+          <span class="glyphicon glyphicon-comment"></span>
+          <h3 class="title-services">Lorem Ipsum</h3>
+          <p class="p-services">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+        <div class="col-services col-services-last col-sm-4 wow fadeInRight">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <h3 class="title-services">Lorem Ipsum</h3>
+          <p class="p-services">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- IMAC-->
+  <!--===============================================================-->
+  <div class="bg-imac">
+    <div class="container-imac container">
+      <div class="row-imac row">
+        <div class="col-imac col-sm-5 col-xs-12">
+          <div class="tic wow fadeInLeft">
+            <h5 class="imac-p"><span class="glyphicon glyphicon-ok"></span>Blazing Fast.</h5>  
+          </div>   
+          <div class="tic wow fadeInLeft" data-wow-delay="0.1s">
+            <h5 class="imac-p"><span class="glyphicon glyphicon-ok"></span>Responsive down to mobile.</h5>
+          </div>
+          <div class=" tic wow fadeInLeft" data-wow-delay="0.2s">
+            <h5 class="imac-p"><span class="glyphicon glyphicon-ok"></span>Clean Coding.</h5>
+          </div>
+          <div class="tic wow fadeInLeft" data-wow-delay="0.3s">
+            <h5 class="imac-p"><span class="glyphicon glyphicon-ok"></span>Responsive down to mobile.</h5>
+          </div>
+        </div>
+        <!-- IMAC SLIDER -->
+        <div class="col-imac col-sm-6 col-sm-offset-1 col-xs-12">
+          <div class="col-sl wow fadeInUp"> 
+            <img class="img-imac" src="images/imac-slider/imac.png" alt="imac">
+            <div class="wrapper-sl wrapper-imac">
+              <!-- SLIDER-IMAGES -->
+              <ul id="slider-imac" class="slider" >
+                <li><img src="images/imac-slider/514x275.gif" alt="slider-1"/></li>
+                <li><img src="images/imac-slider/514x275.gif" alt="slider-2"/></li>
+                <li><img src="images/imac-slider/514x275.gif" alt="slider-3"/></li>
+              </ul>
+              <div class="wrapper-nav">
+                <div class="div-p div-p-imac"><i id="p-imac"></i></div>
+                <div class="div-n div-n-imac"><i id="n-imac"></i></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- IMAC SLIDER END -->
+      </div>
+    </div>
+  </div>
 
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" name="author"/>
+  <!-- PORTFOLIO-->
+  <!--===============================================================-->
+<div id="work">
+  <div class="bg-portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="header-title">OUR WORK</h1>
+          <h2 class="subtitle">Check out our latest projects</h2>
+          <hr class="hr-portfolio">
+        </div>
+      </div>
+      <!-- NAVIGATION -->
+      <div class="row">
+        <ul class="ul-portfolio">
+          <li class="filter wow fadeInLeft" data-filter="all">
+            ALL
+          </li>
+          <li class="filter wow fadeInUp" data-wow-delay="0.2s" data-filter="women">
+            WOMEN
+          </li>
+          <li class="filter wow fadeInDown" data-wow-delay="0.3s" data-filter="video">
+            VIDEO
+          </li>
+          <li class="filter wow fadeInRight" data-filter="web-design">
+            DESIGN
+          </li>
+        </ul>
+      </div>
+      <!-- PORTFOLIO GALLERY CONTAINER-->
+      <div id="Grid" class="row">
+        <div class="mix women all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="nivoz" href="images/portfolio/1280x800.gif" data-lightbox-gallery="women" 
+                title="This is an image title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-<!-- BEGIN GLOBAL MANDATORY STYLES -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
-<link href="/static/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="/static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-<link href="/static/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="/static/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
-<link href="/static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
-<!-- END GLOBAL MANDATORY STYLES -->
+        <div class="mix web-design all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="nivoz" href="images/portfolio/1280x800.gif" data-lightbox-gallery="design"
+               title="This is an image title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-<!-- BEGIN DYMANICLY LOADED CSS FILES(all plugin and page related styles must be loaded between GLOBAL and THEME css files ) -->
-<link id="ng_load_plugins_before"/>
-<!-- END DYMANICLY LOADED CSS FILES -->
+        <div class="mix video all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="video" href="images/portfolio/1280x800.gif" title="This is a video title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mix all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="nivoz" href="images/portfolio/1280x800.gif" title="This is an image title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-<!-- BEGIN THEME STYLES -->
-<!-- DOC: To use 'rounded corners' style just load 'components-rounded.css' stylesheet instead of 'components.css' in the below style tag -->
-<link href="/static/assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
-<link href="/static/assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
-<link href="/static/assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
-<link href="/static/assets/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css" id="style_color"/>
-<link href="/static/assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
-<!-- END THEME STYLES -->
+        <div class="mix web-design all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="nivoz" href="images/portfolio/1280x800.gif" data-lightbox-gallery="design"
+               title="This is an image title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-<link rel="shortcut icon" href="favicon.ico"/>
-</head>
-<!-- END HEAD -->
+        <div class="mix web-design all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="nivoz" href="images/portfolio/1280x800.gif" data-lightbox-gallery="gallery-1" title="This is an image title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-<!-- BEGIN BODY -->
-<!-- DOC: Apply "page-header-fixed-mobile" and "page-footer-fixed-mobile" class to body element to force fixed header or footer in mobile devices -->
-<!-- DOC: Apply "page-sidebar-closed" class to the body and "page-sidebar-menu-closed" class to the sidebar menu element to hide the sidebar by default -->
-<!-- DOC: Apply "page-sidebar-hide" class to the body to make the sidebar completely hidden on toggle -->
-<!-- DOC: Apply "page-sidebar-closed-hide-logo" class to the body element to make the logo hidden on sidebar toggle -->
-<!-- DOC: Apply "page-sidebar-hide" class to body element to completely hide the sidebar on sidebar toggle -->
-<!-- DOC: Apply "page-sidebar-fixed" class to have fixed sidebar -->
-<!-- DOC: Apply "page-footer-fixed" class to the body element to have fixed footer -->
-<!-- DOC: Apply "page-sidebar-reversed" class to put the sidebar on the right side -->
-<!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
-<body ng-controller="AppController" class="page-header-fixed page-sidebar-closed-hide-logo page-quick-sidebar-over-content page-on-load" ng-class="{'page-container-bg-solid': settings.layout.pageBodySolid, 'page-sidebar-closed': settings.layout.pageSidebarClosed}">
+        <div class="mix women all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="nivoz" href="images/portfolio/1280x800.gif" data-lightbox-gallery="women"
+               title="This is an image title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mix women all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="nivoz" href="images/portfolio/1280x800.gif" data-lightbox-gallery="women"
+               title="This is an image title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-	<!-- BEGIN PAGE SPINNER -->
-	<div ng-spinner-bar class="page-spinner-bar">
-		<div class="bounce1"></div>
-		<div class="bounce2"></div>
-		<div class="bounce3"></div>
-	</div>
-	<!-- END PAGE SPINNER -->
+        <div class="mix web-design all col-sm-4">
+          <div class="img-wrapper">
+            <img class="img-portfolio" src="images/portfolio/400x300.gif" alt="portfolio">
+            <div class="bg-img-portfolio"></div>
+            <div class="lightbox-wrapper">
+              <a class="nivoz" href="images/portfolio/1280x800.gif" data-lightbox-gallery="design"
+               title="This is an image title">
+                <span class="glyphicon glyphicon-search"></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-	<!-- BEGIN HEADER -->
-	<div data-ng-include="'/static/tpl/header.html'" data-ng-controller="HeaderController" class="page-header navbar navbar-fixed-top">
-	</div>
-	<!-- END HEADER -->
+      </div><!-- PORTFOLIO GALLERY CONTAINER END-->
+    </div>
+  </div>
+</div>
 
-	<div class="clearfix">
-	</div>
+<!-- POSTS -->
+<!--===============================================================-->
+<div id="news-blog">
+  <div class="bg-blog">
+    <div class="container">
+      <div class="row-blog-header row">
+        <div class="col-sm-12">
+        <h1 class="header-title">LATEST POSTS</h1>
+        <h2 class="subtitle">We have included a fully featured blog page</h2>
+        <hr>
+        </div>
+      </div>      
+      <div class="row-blog row">
+        <div class="col-blog col-sm-4 wow fadeInLeft">
+          <img src="images/blog/office.jpg" alt="blog-pic">
+          <h1 class="title-blog"><a href="blog-post.html">Portfolio items</a></h1>
+          <p class="date-blog">February 11, 2014 by Mark</p>
+          <p class="p-blog">Sed feugiat est vel ante vulputate adipiscing. Suspendisse ut blandit lacus. Ut consequat dui eu dolor mollis euismod. Aenean id condimentum mauris. </p>
+          <a href="blog-post.html" class="btn btn-flat">Read More   »</a>
+        </div>
+        <div class="col-blog col-sm-4 wow fadeInUp">
+          <img src="images/blog/mac.jpg" alt="blog-pic">
+          <h1 class="title-blog"><a href="blog-post.html">Pixel perfect</a></h1>
+          <p class="date-blog">January 27, 2014 by John</p>
+          <p class="p-blog">Sed feugiat est vel ante vulputate adipiscing. Suspendisse ut blandit lacus. Ut consequat dui eu dolor mollis euismod. Aenean id condimentum mauris.</p>
+          <a href="blog-post.html" class="btn btn-flat">Read More   »</a>
+        </div>
+        <div class="col-blog col-sm-4 wow fadeInRight">
+          <img src="images/blog/office-people.jpg" alt="blog-pic">
+          <h1 class="title-blog"><a href="blog-post.html">Responsive</a></h1>
+          <p class="date-blog">February 11, 2014 by Mark</p>
+          <p class="p-blog">Sed feugiat est vel ante vulputate adipiscing. Suspendisse ut blandit lacus. Ut consequat dui eu dbolor mollis euismod. Aenean id condimentum mauris.</p>
+          <a href="blog-post.html" class="btn btn-flat">Read More   »</a>
+        </div>
+      </div><!-- /.row -->
+    </div>
+  </div>
+</div>
 
-	<!-- BEGIN CONTAINER -->
-	<div class="page-container">
-		<!-- BEGIN SIDEBAR -->
-		<div data-ng-include="'/static/tpl/sidebar.html'" data-ng-controller="SidebarController" class="page-sidebar-wrapper">			
-		</div>
-		<!-- END SIDEBAR -->
+<!-- PLANS SECTION-->
+<!--===============================================================-->
+  <div class="bg-plan">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 wow fadeInUp">
+          <h1 class="header-title">OUR PLANS</h1>
+          <h2 class="subtitle">Check out our plans</h2>
+          <hr>
+        </div> 
+      </div>   
+        
+      <div class="row-plan row">
+        <!-- PRICETABLE-1 -->
+        <div class="col-plan col-sm-3 wow fadeInUp">
+          <div  class="wrapper-plan">
+            <h2 class="plan-header">BASIC</h2>
+            <h3 class="plan-price">$12</h3>
+            <p  class="plan-features">1 User</p>
+            <hr>
+            <p  class="plan-features">10 Projects</p>
+            <hr>
+            <p  class="plan-features">10GB Amount</p>
+            <hr>
+            <p  class="plan-features">24/7 Support</p>
+            <a  class="plan-sign" href="#">Sign Up</a>
+          </div>
+        </div>
+        <!-- PRICETABLE-2 -->
+        <div class="col-plan col-sm-3 wow fadeInLeft">
+          <div  class="wrapper-plan featured">
+            <h2 class="plan-header">PRO</h2>
+            <h3 class="plan-price">$49</h3>
+            <p  class="plan-features">100 Users</p>
+            <hr>
+            <p  class="plan-features">Unlimited Projects</p>
+            <hr>
+            <p  class="plan-features">1TB Amount</p>
+            <hr>
+            <p  class="plan-features">24/7 Support</p>
+            <a  class="plan-sign btn" href="#">Sign Up</a>
+          </div>
+        </div>
+        <!-- PRICETABLE-3 -->
+        <div class="col-plan col-sm-3 wow fadeInRight">
+          <div  class="wrapper-plan">
+            <h2 class="plan-header">PLUS</h2>
+            <h3 class="plan-price">$19</h3>
+            <p  class="plan-features">5 Users</p>
+            <hr>
+            <p  class="plan-features">10 Projects</p>
+            <hr>
+            <p  class="plan-features">10gb Amount</p>
+            <hr>
+            <p  class="plan-features">24/7 Support</p>
+            <a  class="plan-sign" href="#">Sign Up</a>
+          </div>
+        </div>
+        <!-- PRICETABLE-4 -->
+        <div class="col-plan col-sm-3 wow fadeInUp">
+          <div  class="wrapper-plan">
+            <h2 class="plan-header">PREMIUM</h2>
+            <h3 class="plan-price">$29</h3>
+            <p  class="plan-features">10 Users</p>
+            <hr>
+            <p  class="plan-features">50 Projects</p>
+            <hr>
+            <p  class="plan-features">50GB Amount</p>
+            <hr>
+            <p  class="plan-features">24/7 Support</p>
+            <a  class="plan-sign" href="#">Sign Up</a>
+          </div>
+        </div>
 
-		<!-- BEGIN CONTENT -->
-		<div class="page-content-wrapper">
-			<div class="page-content">
-				<!-- BEGIN STYLE CUSTOMIZER(optional) -->
-				<div data-ng-include="'/static/tpl/theme-panel.html'" data-ng-controller="ThemePanelController" class="theme-panel hidden-xs hidden-sm">				
-				</div>
-				<!-- END STYLE CUSTOMIZER -->
-						
-				<!-- BEGIN ACTUAL CONTENT -->
-				<div ui-view class="fade-in-up">
-				</div> 
-				<!-- END ACTUAL CONTENT -->
-			</div>	
-		</div>
-		<!-- END CONTENT -->
-		
-		<!-- BEGIN QUICK SIDEBAR -->
-		<a href="javascript:;" class="page-quick-sidebar-toggler"><i class="icon-close"></i></a>
-		<div data-ng-include="'/static/tpl/quick-sidebar.html'" data-ng-controller="QuickSidebarController" class="page-quick-sidebar-wrapper"></div>
-		<!-- END QUICK SIDEBAR -->
-	</div>
-	<!-- END CONTAINER -->
+      </div>
+    </div> 
+  </div>
+<!-- QUOTE-->
+<!--===============================================================-->
+<div class="bg-quote">
+  <div class="container">
+    <div class="row-quote row">
+      <div class="col-md-12 wow fadeInUp">
+        <h5>
+          <i class="fa fa-quote-left "></i>
+          Flanzo is a blazing fast, responsive HTML5-CSS3 Bootstrap template.
+          <i class="fa fa-quote-right"></i>
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- TEAM -->
+<!--===============================================================-->
+<div id="team">
+  <div class="bg-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
+          <h1 class="header-title">THE TEAM</h1>
+          <h2 class="subtitle">Meet the best team in the world
+          </h2>
+          <hr>
+        </div>
+      </div>
 
-	<!-- BEGIN FOOTER -->
-	<div data-ng-include="'/static/tpl/footer.html'" data-ng-controller="FooterController" class="page-footer">
-	</div>
-	<!-- END FOOTER -->
+      <div class="row row-team">
 
-	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- TEAM-1 -->
+        <div class="col-team col-sm-4 wow pulse">
+          <div class="wrapper-team-pic">
+            <img class="img-team" src="images/team/team-1.jpg" alt="team">
+            <div class="team-hover-bg"></div>
+            <a href="#"><i class="fa fa-twitter team-icon team-t"></i></a>
+            <a href="#"><i class="fa fa-facebook team-icon team-f"></i></a>
+            <a href="#"><i class="fa fa-dribbble team-icon team-d"></i></a>
+          </div>
+          <h2 class="team-title">John Doe</h2>
+          <h3 class="team-subtitle">Branding & Design</h3>
+        </div>
+        <!-- TEAM-2 -->
+        <div class="col-team col-sm-4 wow pulse">
+          <div class="wrapper-team-pic">
+            <img class="img-team" src="images/team/team-2.jpg" alt="team">
+            <div class="team-hover-bg"></div>
+            <a href="#"><i class="fa fa-twitter team-icon team-t"></i></a>
+            <a href="#"><i class="fa fa-facebook team-icon team-f"></i></a>
+            <a href="#"><i class="fa fa-dribbble team-icon team-d"></i></a>
+          </div>
+          <h2 class="team-title">Lauren</h2>
+          <h3 class="team-subtitle">Programmer</h3>
+        </div>
+        <!-- TEAM-3 -->
+        <div class="col-team col-sm-4 wow pulse">
+          <div class="wrapper-team-pic">
+            <img class="img-team" src="images/team/team-3.png" alt="team">
+            <div class="team-hover-bg"></div>
+              <a href="#"><i class="fa fa-twitter fa-2x team-icon team-t"></i></a>
+              <a href="#"><i class="fa fa-facebook fa-2x team-icon team-f"></i></a>
+              <a href="#"><i class="fa fa-dribbble fa-2x team-icon team-d"></i></a>
+          </div>
+          <h2 class="team-title">Jack</h2>
+          <h3 class="team-subtitle">Salesman</h3>
+        </div>
 
-	<!-- BEGIN CORE JQUERY PLUGINS -->
-	<!--[if lt IE 9]>
-	<script src="../../../assets/global/plugins/respond.min.js"></script>
-	<script src="../../../assets/global/plugins/excanvas.min.js"></script> 
-	<![endif]-->
-	<script src="/static/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>	
-	<script src="/static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
-	<!-- END CORE JQUERY PLUGINS -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- CONTACT-->
+<!--===============================================================-->
+<div id="contact">
+  <div class="bg-contact grey">
+    <div class="container-contact container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="header-title wow fadeInLeft">CONTACT US</h1>
+          <h2 class="subtitle wow fadeInRight">Feel free to contact us anytime !</h2>
+          <hr class="hr-contact">
+        </div>
+      </div>
+      <!-- GOOGLE-MAPS -->
+      <div class="row">
+        <div class="col-map col-sm-12 wow fadeInUp ">
+          <div  id="map-canvas">
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT-FORM -->
+      <div class="row-contact row">
+        <div class="col-sm-6">
+          <div class="row wow fadeInUp">
+            <form method="POST" id="ajax_form" action="email.php" role="form" class="form-contact">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <input class="form-control form-flat" type="text" name="name" id="name" placeholder="Name" >
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <input class="form-control form-flat" type="text" name="email" id="email" placeholder="Email" > 
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <textarea name="message" class="form-control form-flat" id="message"></textarea>
+                </div>
+                <button type="submit" class="submit btn btn-flat">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
 
-	<!-- BEGIN CORE ANGULARJS PLUGINS -->
-	<script src="/static/assets/global/plugins/angularjs/angular.min.js" type="text/javascript"></script>	
-	<script src="/static/assets/global/plugins/angularjs/angular-sanitize.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/angularjs/angular-touch.min.js" type="text/javascript"></script>	
-	<script src="/static/assets/global/plugins/angularjs/plugins/angular-ui-router.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/angularjs/plugins/ocLazyLoad.min.js" type="text/javascript"></script>
-	<script src="/static/assets/global/plugins/angularjs/plugins/ui-bootstrap-tpls.min.js" type="text/javascript"></script>
-	<!-- END CORE ANGULARJS PLUGINS -->
-	
-	<!-- BEGIN APP LEVEL ANGULARJS SCRIPTS -->
-	<script src="/static/js/app.js" type="text/javascript"></script>
-	<script src="/static/js/directives.js" type="text/javascript"></script>
-	<!-- END APP LEVEL ANGULARJS SCRIPTS -->
+        <!-- CONTACT-INFO -->
+        <div class="col-sm-6">
+          <div class="row-info row">
+            <div class="wow fadeInUp">
 
-	<!-- BEGIN APP LEVEL JQUERY SCRIPTS -->
-	<script src="/static/assets/global/scripts/metronic.js" type="text/javascript"></script>
-	<script src="/static/assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
-	<script src="/static/assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
-	<script src="/static/assets/admin/layout/scripts/demo.js" type="text/javascript"></script>  
-	<!-- END APP LEVEL JQUERY SCRIPTS -->
+              <div class="col-info col-sm-12">
+                <h4 class="title-contact">Get in touch</h4>
+                <P class="p-contact">We'd love to here from you. Drop us a line if you have any questions. Or just let us know what you're working on so that we can find ways to help serve you better.
+                </P>
+              </div>
 
-	<script type="text/javascript">
-		/* Init Metronic's core jquery plugins and layout scripts */
-		$(document).ready(function() {   
-			Metronic.init(); // Run metronic theme
-			Metronic.setAssetsPath('/static/assets/'); // Set the assets folder path			
-		});
-	</script>
-	<!-- END JAVASCRIPTS -->
-</body>
-<!-- END BODY -->
+              <div class="col-info col-sm-12">
+                <h4 class="title-contact">The office</h4>
+                  <i class="fa fa-map-marker fa-2x pull-left"></i>
+                <h5 class="title-contact-sm">Address: Some Address 247, NY</h5>
+                  <i class="fa fa-phone fa-2x pull-left"></i>
+                <h5 class="title-contact-sm">Phone: +371 9800 4893</h5>
+                  <i class="fa fa-envelope fa-2x pull-left"></i>
+                <h5 class="title-contact-sm">support@example.com</h5>
+              </div>
+
+              <div class="col-info col-sm-12">
+                <h4 class="title-contact">Business Hours</h4>
+                <p class="pull-left">
+                  <span class="glyphicon glyphicon-time">
+                  </span>
+                </p>
+                <p class="title-contact-sm">Monday - Friday 9am to 5pm</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- SUBSCRIBE-->
+<!--===============================================================-->
+<div class="bg-subscribe">
+  <div class="container-subscribe container">
+    <div class="row-subscribe row">
+      <div class="col-subscribe col-sm-8 col-sm-offset-2 wow fadeInRight">
+          <input type="email" class="form-control form-flat subscribe-mail hidden-xs" placeholder="Add your email address">
+          <!-- Removes placeholder at XS -->
+          <input type="email" class="form-control form-flat subscribe-mail visible-xs">
+          <a href="#" class="btn btn-flat">SUBSCRIBE</a>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- FOOTER-->
+  <!--===============================================================-->
+  <div class="bg-footer">
+    <div class="container">
+      <div class="row row-footer">
+        <div class="col-md-12">
+          <div class="wrapper-social">
+            <a href="#"><i class="fa fa-facebook facebook-footer wow bounce"></i></a>
+            <a href="#"><i class="fa fa-twitter twitter-footer wow bounce"  data-wow-delay="0.2s"></i></a>
+            <a href="#"><i class="fa fa-dribbble dribbble-footer wow bounce"  data-wow-delay="0.3s"></i></a>
+            <a href="#"><i class="fa fa-tumblr youtube-footer wow bounce"  data-wow-delay="0.4s"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER-BOTTOM-->
+  <!--===============================================================-->
+  <div class="bg-footer-bottom">
+    <div class="container">
+      <div class="row-footer-bottom row">
+        <div class="col-sm-12 hidden-xs">
+          <p class="pull-left">&copy;2013 All Rights Reserved by Mamoot Studio.</p>
+          <div class="links-footer pull-right">
+            <a class="scroll-smooth" href="#services">Services</a>
+            <a class="scroll-smooth" href="#work">Work</a>
+            <a class="scroll-smooth" href="#news-blog">Posts</a>
+            <a class="scroll-smooth" href="#home">Top</a>
+          </div>
+        </div>
+
+        <!-- VISIBLE XS REMOVES CLASS "PULL-RIGHT" AND CENTERS-->
+        <div class="hidden-sm visible-xs">
+          <p>&copy;2013 All Rights Reserved by Mamoot Studio.</p>
+          <div class="links-footer">
+            <a class="scroll-smooth" href="#services">Services</a>
+            <a class="scroll-smooth" href="#work">Work</a>
+            <a class="scroll-smooth" href="#news-blog">Posts</a>
+            <a class="scroll-smooth" href="#home">Top</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+    <!-- JAVASCRIPT-->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js-theme/wow.min.js"></script>
+    <script>
+      wow = new WOW(
+        {
+          animateClass: 'animated',
+          mobile: false
+        }
+      );
+      wow.init();
+    </script>
+    <script src="js-theme/jquery.bxslider.min.js"></script>
+    <script src="js-theme/nivo-lightbox.min.js"></script>
+    <script src="js-theme/jquery.mixitup.min.js"></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiUHrtP7COzKY2azegkJZzps3J7pQ4Qs4&sensor=false">
+    </script> 
+    <script src="js-theme/call.js"></script> 
+  </body>
 </html>
