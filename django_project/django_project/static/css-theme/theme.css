@@ -1110,21 +1110,21 @@ a.btn-white:focus {
 @media (min-width:768px) { 
 	.bg-portfolio {
 	    min-height: 1100px;
-	    background-color: #535A6C;
+	    background-color: #161616;
 	}
 }
 
 @media (min-width:992px) { 
 	.bg-portfolio {
 	    min-height: 1290px;
-	    background-color: #535A6C;
+	    background-color: #161616;
 	}
 }
 
 @media (min-width:1200px) { 
 	.bg-portfolio {
 	    min-height: 1450px;
-	    background-color: #535A6C;
+	    background-color: #161616;
 	}
 }
 
