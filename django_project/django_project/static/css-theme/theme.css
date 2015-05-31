@@ -43,7 +43,7 @@ html,body {
 body {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    color: #535A6C;
+    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     font-weight: 300;
 }
 
@@ -61,7 +61,7 @@ a:focus {
 h1 {
     font-weight: 700;
     letter-spacing: 1px;
-    color: #535A6C;
+    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
 }
 
 hr {
@@ -86,7 +86,7 @@ a.btn-flat,
     border: none;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
     border-bottom: solid 2px #25caa8;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -142,13 +142,13 @@ a.btn-white {
 a.btn-white:hover {
     background-color: #FFF;
     border-color: #f7f7f7;
-    color: #535A6C;
+    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
 }
 
 a.btn-white:active,
 a.btn-white:focus {
     background-color: #f7f7f7;
-    color: #535A6C;
+    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
 }
 
 /* SLIDER
@@ -274,13 +274,13 @@ a.btn-white:focus {
    ================================================== */
 
 .navbar-inverse {
-    background-color: #535A6C
+    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/
 }
 
 .bg-intro,
 .bg-iphone,
 .bg-imac {
-    background-color: #535A6C
+    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/
 }
 
 .bg-features,
@@ -296,7 +296,7 @@ a.btn-white:focus {
 }
 
 .bg-team {
-    background-color: #28D8B3
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
 }
 
 .bg-subscribe {
@@ -352,7 +352,7 @@ a.btn-white:focus {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
     color: #f1fdfa;
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
 }
 
 /* NAVBAR TOGGLE
@@ -361,11 +361,11 @@ a.btn-white:focus {
 .navbar-inverse .navbar-toggle {
     margin-top: 23px;
     padding: 14px 16px;
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    border-color: #28D8B3;
+    border-color: #000066; /*GLOBAL COLOR ORANGE*/
     -webkit-transition: .15s ease-in;
     -moz-transition: .15s ease-in;
     -o-transition: .15s ease-in;
@@ -380,7 +380,7 @@ a.btn-white:focus {
 }
 
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -390,7 +390,7 @@ a.btn-white:focus {
    ================================================== */
 
 .dropdown-menu {
-    background-color: #535A6C;
+    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -433,7 +433,7 @@ a.btn-white:focus {
 }
 
 .navbar-inverse .navbar-nav .dropdown-toggle:focus {
-    background-color: #535A6C;
+    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     color: #a1a9bb;
 }
 
@@ -450,7 +450,7 @@ a.btn-white:focus {
 	   ================================================== */
 
 	.navbar-collapse {
-	    background-color: #535A6C;
+	    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
 	    margin-top: 8px;
 	}
 
@@ -482,7 +482,7 @@ a.btn-white:focus {
    ================================================== */
 
 .header-title {
-    color: #535A6C;
+    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     font-size: 40px;
     margin-top: 120px;
     text-align: center;
@@ -721,7 +721,7 @@ a.btn-white:focus {
     padding-top: 8%;
     margin-right: .4em;
     margin-bottom: .98em;
-    color: #28D8B3;
+    color: #000066; /*GLOBAL COLOR ORANGE*/
     background: #000;
     /* The Fallback */
     background-color: rgba(0,0,0,0.3);
@@ -807,7 +807,7 @@ a.btn-white:focus {
 }
 
 .col-services .glyphicon {
-    color: #28D8B3;
+    color: #000066; /*GLOBAL COLOR ORANGE*/
     font-size: 60px;
     -webkit-transition: color .3s ease;
     -moz-transition: color .3s ease;
@@ -880,10 +880,10 @@ a.btn-white:focus {
 
 .imac-p span {
     font-size: 20px;
-    color: #28D8B3;
+    color: #000066; /*GLOBAL COLOR ORANGE*/
     margin-right: 20px;
-    background-color: #28D8B3;
-    color: #535A6C;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     height: 32px;
     width: 32px;
     padding-top: 5px;
@@ -959,8 +959,8 @@ a.btn-white:focus {
     margin-right: 6px;
     margin-bottom: 40px;
     padding: 15px 30px;
-    border: solid 3px #28D8B3;
-    color: #28D8B3;
+    border: solid 3px #000066; /*GLOBAL COLOR ORANGE*/
+    color: #000066; /*GLOBAL COLOR ORANGE*/
     font-weight: 700;
     letter-spacing: 1px;
     -webkit-transition: all .15s ease-in;
@@ -970,7 +970,7 @@ a.btn-white:focus {
 }
 
 .ul-portfolio li:hover {
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
     color: #FFF;
 }
 
@@ -981,7 +981,7 @@ a.btn-white:focus {
 }
 
 .ul-portfolio li.active {
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
     color: #FFF;
 }
 
@@ -1152,7 +1152,7 @@ a.btn-white:focus {
 }
 
 .wrapper-plan:hover .plan-price {
-    background-color: #28D8B3
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
 }
 
 .featured {
@@ -1171,7 +1171,7 @@ a.btn-white:focus {
     font-weight: 800;
     letter-spacing: 2px;
     font-size: 36px;
-    background-color: #535A6C;
+    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     color: #FFF;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1189,7 +1189,7 @@ a.btn-white:focus {
     font-size: 19px;
     color: #FFF;
     margin: 0;
-    background-color: #535A6C;
+    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     padding: 20px 0;
     margin-bottom: 20px;
 }
@@ -1205,7 +1205,7 @@ a.btn-white:focus {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
     display: block;
     color: #FFF;
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
     margin: 20px auto 0;
     font-weight: 600;
     width: 70%;
@@ -1423,8 +1423,8 @@ a.btn-white:focus {
     height: 60px;
     width: 60px;
     padding-top: 10px;
-    border: solid 2px #28D8B3;
-    color: #28D8B3;
+    border: solid 2px #000066; /*GLOBAL COLOR ORANGE*/
+    color: #000066; /*GLOBAL COLOR ORANGE*/
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1439,7 +1439,7 @@ a.btn-white:focus {
 }
 
 .wrapper-team-pic:hover .team-icon:hover {
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
     color: #FFF;
 }
 
@@ -1555,7 +1555,7 @@ a.btn-white:focus {
 
 .row-info .glyphicon {
     font-size: 28px;
-    color: #535A6C;
+    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     margin-top: 24px;
     width: 36px;
 }
@@ -1673,7 +1673,7 @@ textarea.form-control {
 
 .error {
     color: #FFF;
-    background-color: #28D8B3;
+    background-color: #000066; /*GLOBAL COLOR ORANGE*/
     border: solid 2px #16a085;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1764,7 +1764,7 @@ textarea.form-control {
 }
 
 .wrapper-social .fa {
-    border: solid 4px #535A6C;
+    border: solid 4px #FF6600; /*GLOBAL COLOR ORANGE*/;
     width: 100px;
     height: 100px;
     -webkit-border-radius: 50%;
@@ -1780,7 +1780,7 @@ textarea.form-control {
     -o-transition: all ease-in .15s;
     transition: all ease-in .15s;
     color: #28d8b3;
-    background-color: #535A6C;
+    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
 }
 
 /* FOOTER BOTTOM
