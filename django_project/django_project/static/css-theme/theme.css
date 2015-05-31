@@ -86,12 +86,12 @@ a.btn-flat,
     border: none;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
     border-bottom: solid 2px #25caa8;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
     -webkit-transition: all ease-in .15s;
     -moz-transition: all ease-in .15s;
     -o-transition: all ease-in .15s;
@@ -100,7 +100,7 @@ a.btn-flat,
 
 .btn-flat:hover {
     background-color: #1ccba8;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .btn-flat:focus,
@@ -111,7 +111,7 @@ a.btn-flat,
     -moz-box-shadow: none;
     box-shadow: none;
     background-color: #18ad90;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .btn-flat:focus,
@@ -128,8 +128,8 @@ a.btn-white {
     display: inline-block;
     padding: 20px 30px;
     text-transform: uppercase;
-    color: #FFF;
-    border: solid #FFF 2px;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    border: solid #161616 /* GLOBAL BACKGROUND BLACK */ 2px;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
@@ -140,7 +140,7 @@ a.btn-white {
 }
 
 a.btn-white:hover {
-    background-color: #FFF;
+    background-color: #161616; /* GLOBAL BACKGROUND BLACK */
     border-color: #f7f7f7;
     color: #FF6600; /*GLOBAL COLOR ORANGE*/;
 }
@@ -218,7 +218,7 @@ a.btn-white:focus {
     background-color: rgba(0,0,0,0.4);
     font-size: 20px;
     line-height: 0;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
     padding: 40px 20px;
 }
 
@@ -292,11 +292,11 @@ a.btn-white:focus {
 }
 
 .bg-blog {
-    background-color: #FFF
+    background-color: #161616 /* GLOBAL BACKGROUND BLACK */
 }
 
 .bg-team {
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
 }
 
 .bg-subscribe {
@@ -352,7 +352,7 @@ a.btn-white:focus {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
     color: #f1fdfa;
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
 }
 
 /* NAVBAR TOGGLE
@@ -361,11 +361,11 @@ a.btn-white:focus {
 .navbar-inverse .navbar-toggle {
     margin-top: 23px;
     padding: 14px 16px;
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    border-color: #000066; /*GLOBAL COLOR ORANGE*/
+    border-color: #000066; /*GLOBAL COLOR BLUE*/
     -webkit-transition: .15s ease-in;
     -moz-transition: .15s ease-in;
     -o-transition: .15s ease-in;
@@ -380,7 +380,7 @@ a.btn-white:focus {
 }
 
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -490,7 +490,7 @@ a.btn-white:focus {
 
 .subtitle {
     font-weight: 300;
-    color: #34495E;
+    color: #00FF00; /* GLOBAL TEXT GREEN */
     font-size: 22px;
     text-align: center;
 }
@@ -548,7 +548,7 @@ a.btn-white:focus {
 .subtitle-intro {
     line-height: 32px;
     letter-spacing: 1px;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
     font-size: 19px;
     margin-bottom: 14px;
     padding-bottom: 0;
@@ -721,7 +721,7 @@ a.btn-white:focus {
     padding-top: 8%;
     margin-right: .4em;
     margin-bottom: .98em;
-    color: #000066; /*GLOBAL COLOR ORANGE*/
+    color: #000066; /*GLOBAL COLOR BLUE*/
     background: #000;
     /* The Fallback */
     background-color: rgba(0,0,0,0.3);
@@ -807,7 +807,7 @@ a.btn-white:focus {
 }
 
 .col-services .glyphicon {
-    color: #000066; /*GLOBAL COLOR ORANGE*/
+    color: #000066; /*GLOBAL COLOR BLUE*/
     font-size: 60px;
     -webkit-transition: color .3s ease;
     -moz-transition: color .3s ease;
@@ -880,9 +880,9 @@ a.btn-white:focus {
 
 .imac-p span {
     font-size: 20px;
-    color: #000066; /*GLOBAL COLOR ORANGE*/
+    color: #000066; /*GLOBAL COLOR BLUE*/
     margin-right: 20px;
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
     color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     height: 32px;
     width: 32px;
@@ -959,8 +959,8 @@ a.btn-white:focus {
     margin-right: 6px;
     margin-bottom: 40px;
     padding: 15px 30px;
-    border: solid 3px #000066; /*GLOBAL COLOR ORANGE*/
-    color: #000066; /*GLOBAL COLOR ORANGE*/
+    border: solid 3px #000066; /*GLOBAL COLOR BLUE*/
+    color: #000066; /*GLOBAL COLOR BLUE*/
     font-weight: 700;
     letter-spacing: 1px;
     -webkit-transition: all .15s ease-in;
@@ -970,8 +970,8 @@ a.btn-white:focus {
 }
 
 .ul-portfolio li:hover {
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
-    color: #FFF;
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .ul-portfolio li:focus,
@@ -981,8 +981,8 @@ a.btn-white:focus {
 }
 
 .ul-portfolio li.active {
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
-    color: #FFF;
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .hr-portfolio {
@@ -1034,7 +1034,7 @@ a.btn-white:focus {
     opacity: 0.2;
     overflow: hidden;
     visibility: hidden;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
     position: absolute;
     display: block;
     -webkit-border-radius: 50%;
@@ -1077,7 +1077,7 @@ a.btn-white:focus {
     padding-left: 24px;
     padding-top: 24px;
     font-size: 60px;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .img-responsive {
@@ -1135,7 +1135,7 @@ a.btn-white:focus {
 
 .wrapper-plan {
     text-align: center;
-    background-color: #FFF;
+    background-color: #161616; /* GLOBAL BACKGROUND BLACK */
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -1152,7 +1152,7 @@ a.btn-white:focus {
 }
 
 .wrapper-plan:hover .plan-price {
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
 }
 
 .featured {
@@ -1172,7 +1172,7 @@ a.btn-white:focus {
     letter-spacing: 2px;
     font-size: 36px;
     background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1187,7 +1187,7 @@ a.btn-white:focus {
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 19px;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
     margin: 0;
     background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     padding: 20px 0;
@@ -1204,8 +1204,8 @@ a.btn-white:focus {
 .plan-sign {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
     display: block;
-    color: #FFF;
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
     margin: 20px auto 0;
     font-weight: 600;
     width: 70%;
@@ -1218,13 +1218,13 @@ a.btn-white:focus {
 
 .plan-sign:hover {
     background-color: #1ccba8;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .plan-sign:active,
 .plan-sign:focus {
     background-color: #18ad90;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 /* BLOG
@@ -1320,7 +1320,7 @@ a.btn-white:focus {
 
 .bg-quote h5 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 60px;
@@ -1344,14 +1344,14 @@ a.btn-white:focus {
 
 .bg-team .header-title,
 .bg-team .subtitle {
-    color: #FFF
+    color: #161616 /* GLOBAL BACKGROUND BLACK */
 }
 
 .team-title {
     font-size: 30px;
     letter-spacing: normal;
     font-weight: 700;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .team-subtitle {
@@ -1359,11 +1359,11 @@ a.btn-white:focus {
     margin: 0 auto;
     max-width: 190px;
     font-size: 18px;
-    color: #FFF;
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .bg-team hr {
-    border-color: #FFF
+    border-color: #161616 /* GLOBAL BACKGROUND BLACK */
 }
 
 .row-team {
@@ -1423,8 +1423,8 @@ a.btn-white:focus {
     height: 60px;
     width: 60px;
     padding-top: 10px;
-    border: solid 2px #000066; /*GLOBAL COLOR ORANGE*/
-    color: #000066; /*GLOBAL COLOR ORANGE*/
+    border: solid 2px #000066; /*GLOBAL COLOR BLUE*/
+    color: #000066; /*GLOBAL COLOR BLUE*/
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1439,8 +1439,8 @@ a.btn-white:focus {
 }
 
 .wrapper-team-pic:hover .team-icon:hover {
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
-    color: #FFF;
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
 .team-t {
@@ -1672,8 +1672,8 @@ textarea.form-control {
 }
 
 .error {
-    color: #FFF;
-    background-color: #000066; /*GLOBAL COLOR ORANGE*/
+    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    background-color: #000066; /*GLOBAL COLOR BLUE*/
     border: solid 2px #16a085;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
