@@ -142,7 +142,6 @@ a.btn-white {
 
 a.btn-white:hover {
     background-color: #161616; /* GLOBAL BACKGROUND BLACK */
-    border-color: #FF6600;
     color: #FF6600; /*GLOBAL COLOR ORANGE*/;
 }
 
