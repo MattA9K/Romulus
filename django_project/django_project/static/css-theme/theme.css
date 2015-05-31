@@ -624,7 +624,8 @@ a.btn-white:focus {
    ================================================== */
 
 .bg-features {
-    text-align: center
+    text-align: center;
+    background-color: #161616;
 }
 
 .row-features {
@@ -791,6 +792,7 @@ a.btn-white:focus {
 .bg-services {
     min-height: 100px;
     text-align: center;
+    background-color: #535A6C;
 }
 
 .col-services {
@@ -1107,19 +1109,22 @@ a.btn-white:focus {
 
 @media (min-width:768px) { 
 	.bg-portfolio {
-	    min-height: 1100px
+	    min-height: 1100px;
+	    background-color: #535A6C;
 	}
 }
 
 @media (min-width:992px) { 
 	.bg-portfolio {
-	    min-height: 1290px
+	    min-height: 1290px;
+	    background-color: #535A6C;
 	}
 }
 
 @media (min-width:1200px) { 
 	.bg-portfolio {
-	    min-height: 1450px
+	    min-height: 1450px;
+	    background-color: #535A6C;
 	}
 }
 
