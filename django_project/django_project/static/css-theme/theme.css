@@ -149,6 +149,7 @@ a.btn-white:hover {
 a.btn-white:active,
 a.btn-white:focus {
     background-color: #f7f7f7;
+    border-color: #FF6600;
     color: #FF6600; /*GLOBAL COLOR ORANGE*/;
 }
 
@@ -275,7 +276,7 @@ a.btn-white:focus {
    ================================================== */
 
 .navbar-inverse {
-    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/
+    background-color: #161616; /*GLOBAL COLOR ORANGE*/
 }
 
 .bg-intro,
