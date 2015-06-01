@@ -422,6 +422,10 @@ a.btn-white:focus {
     background-color: #161616
 }
 
+.dropdown-menu {
+background-color: #161616 !important;
+}
+
 .dropdown-menu li a:hover {
     background-color: #ff6600;
     color: #a1a9bb;
