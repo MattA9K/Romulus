@@ -813,7 +813,7 @@ background-color: #161616 !important;
 }
 
 .col-services .glyphicon {
-    color: #000066; /*GLOBAL COLOR BLUE*/
+    color: #00ff00; /*GLOBAL COLOR BLUE*/
     font-size: 60px;
     -webkit-transition: color .3s ease;
     -moz-transition: color .3s ease;
