@@ -361,7 +361,7 @@ a.btn-white:focus {
 .navbar-inverse .navbar-toggle {
     margin-top: 23px;
     padding: 14px 16px;
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #ff6600; /*GLOBAL COLOR BLUE*/
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -380,7 +380,7 @@ a.btn-white:focus {
 }
 
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #ff6600; /*GLOBAL COLOR BLUE*/
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
