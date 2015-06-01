@@ -423,12 +423,12 @@ a.btn-white:focus {
 }
 
 .dropdown-menu li a:hover {
-    background-color: #161616;
+    background-color: #ff6600;
     color: #a1a9bb;
 }
 
 .dropdown-menu li a:active {
-    background-color: #ff6600;
+    background-color: #161616;
     color: #a1a9bb;
 }
 
