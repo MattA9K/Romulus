@@ -419,24 +419,20 @@ a.btn-white:focus {
 }
 
 .dropdown .divider {
-    background-color: #ff6600
+    background-color: #161616
 }
 
 .dropdown-menu li a:hover {
-    background-color: #697289;
+    background-color: #ff6600;
     color: #a1a9bb;
 }
 
 .dropdown-menu li a:active {
-    background-color: #697289;
+    background-color: #ff6600;
     color: #a1a9bb;
 }
 
-.dropdown-toggle:focus {
-background-color:#161616;
-}
-
-.navbar-inverse .navbar-nav {
+.navbar-inverse .navbar-nav .dropdown-toggle:focus {
     background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
     color: #a1a9bb;
 }
