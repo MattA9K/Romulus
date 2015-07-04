@@ -10,8 +10,9 @@ def test(request):
 def index(request):
     return render_to_response('index.html')
 
-
 def json(request):
-
     json = {"test":"hello"}
     return HttpResponse("<h1>Project Romulus</h1><br><p>under construction...</p>")
+
+def authorize_access(request):
+    return render_to_response('auth.html')
