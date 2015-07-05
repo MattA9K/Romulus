@@ -965,8 +965,8 @@ background-color: #161616 !important;
     margin-right: 6px;
     margin-bottom: 40px;
     padding: 15px 30px;
-    border: solid 3px #000066; /*GLOBAL COLOR BLUE*/
-    color: #000066; /*GLOBAL COLOR BLUE*/
+    border: solid 3px #FF6600; /*GLOBAL COLOR BLUE*/
+    color: #FF6600; /*GLOBAL COLOR BLUE*/
     font-weight: 700;
     letter-spacing: 1px;
     -webkit-transition: all .15s ease-in;
@@ -976,7 +976,7 @@ background-color: #161616 !important;
 }
 
 .ul-portfolio li:hover {
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #FF6600; /*GLOBAL COLOR BLUE*/
     color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
@@ -987,7 +987,7 @@ background-color: #161616 !important;
 }
 
 .ul-portfolio li.active {
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #FF6600; /*GLOBAL COLOR BLUE*/
     color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
