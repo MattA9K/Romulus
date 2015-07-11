@@ -8,7 +8,7 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
     # url(r'^Romulus/', include('Romulus.urls')),
     url(r'^test', 'Romulus.views.test'),
-    url(r'^BrandiLove', 'Romulus.views.index'),
+    url(r'^off', 'Romulus.views.index'),
     url(r'^Secret', 'Romulus.views.index'),
     url(r'^$', 'Romulus.views.authorize_access'),
 
