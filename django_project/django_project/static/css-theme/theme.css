@@ -62,11 +62,11 @@ a:focus {
 h1 {
     font-weight: 700;
     letter-spacing: 1px;
-    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    color: #0078d7; /*GLOBAL COLOR ORANGE*/;
 }
 
 h3 {
-    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    color: #0078d7; /*GLOBAL COLOR ORANGE*/;
 }
 
 hr {
@@ -146,13 +146,13 @@ a.btn-white {
 
 a.btn-white:hover {
     background-color: #161616; /* GLOBAL BACKGROUND BLACK */
-    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    color: #0078d7; /*GLOBAL COLOR ORANGE*/;
 }
 
 a.btn-white:active,
 a.btn-white:focus {
     background-color: #f7f7f7;
-    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    color: #0078d7; /*GLOBAL COLOR ORANGE*/;
 }
 
 /* SLIDER
@@ -284,7 +284,7 @@ a.btn-white:focus {
 .bg-intro,
 .bg-iphone,
 .bg-imac {
-    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/
+    background-color: #0078d7; /*GLOBAL COLOR ORANGE*/
 }
 
 .bg-features,
@@ -356,7 +356,7 @@ a.btn-white:focus {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
     color: #f1fdfa;
-    background-color: #ff6600; /*GLOBAL COLOR BLUE*/
+    background-color: #0078d7; /*GLOBAL COLOR BLUE*/
 }
 
 /* NAVBAR TOGGLE
@@ -365,11 +365,11 @@ a.btn-white:focus {
 .navbar-inverse .navbar-toggle {
     margin-top: 23px;
     padding: 14px 16px;
-    background-color: #ff6600; /*GLOBAL COLOR BLUE*/
+    background-color: #0078d7; /*GLOBAL COLOR BLUE*/
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    border-color: #ff6600; /*GLOBAL COLOR BLUE*/
+    border-color: #0078d7; /*GLOBAL COLOR BLUE*/
     -webkit-transition: .15s ease-in;
     -moz-transition: .15s ease-in;
     -o-transition: .15s ease-in;
@@ -384,7 +384,7 @@ a.btn-white:focus {
 }
 
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #ff6600; /*GLOBAL COLOR BLUE*/
+    background-color: #0078d7; /*GLOBAL COLOR BLUE*/
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -394,7 +394,7 @@ a.btn-white:focus {
    ================================================== */
 
 .dropdown-menu {
-    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    background-color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -419,7 +419,7 @@ a.btn-white:focus {
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus {
-    background-color: #ff6600
+    background-color: #0078d7
 }
 
 .dropdown .divider {
@@ -431,7 +431,7 @@ background-color: #161616 !important;
 }
 
 .dropdown-menu li a:hover {
-    background-color: #ff6600;
+    background-color: #0078d7;
     color: #a1a9bb;
 }
 
@@ -441,7 +441,7 @@ background-color: #161616 !important;
 }
 
 .navbar-inverse .navbar-nav .dropdown-toggle:focus {
-    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    background-color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     color: #a1a9bb;
 }
 
@@ -458,7 +458,7 @@ background-color: #161616 !important;
 	   ================================================== */
 
 	.navbar-collapse {
-	    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+	    background-color: #0078d7; /*GLOBAL COLOR ORANGE*/;
 	    margin-top: 8px;
 	}
 
@@ -490,7 +490,7 @@ background-color: #161616 !important;
    ================================================== */
 
 .header-title {
-    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     font-size: 40px;
     margin-top: 120px;
     text-align: center;
@@ -893,7 +893,7 @@ background-color: #161616 !important;
     color: #000066; /*GLOBAL COLOR BLUE*/
     margin-right: 20px;
     background-color: #000066; /*GLOBAL COLOR BLUE*/
-    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     height: 32px;
     width: 32px;
     padding-top: 5px;
@@ -969,8 +969,8 @@ background-color: #161616 !important;
     margin-right: 6px;
     margin-bottom: 40px;
     padding: 15px 30px;
-    border: solid 3px #FF6600; /*GLOBAL COLOR BLUE*/
-    color: #FF6600; /*GLOBAL COLOR BLUE*/
+    border: solid 3px #0078d7; /*GLOBAL COLOR BLUE*/
+    color: #0078d7; /*GLOBAL COLOR BLUE*/
     font-weight: 700;
     letter-spacing: 1px;
     -webkit-transition: all .15s ease-in;
@@ -980,7 +980,7 @@ background-color: #161616 !important;
 }
 
 .ul-portfolio li:hover {
-    background-color: #FF6600; /*GLOBAL COLOR BLUE*/
+    background-color: #0078d7; /*GLOBAL COLOR BLUE*/
     color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
@@ -991,7 +991,7 @@ background-color: #161616 !important;
 }
 
 .ul-portfolio li.active {
-    background-color: #FF6600; /*GLOBAL COLOR BLUE*/
+    background-color: #0078d7; /*GLOBAL COLOR BLUE*/
     color: #161616; /* GLOBAL BACKGROUND BLACK */
 }
 
@@ -1184,7 +1184,7 @@ background-color: #161616 !important;
     font-weight: 800;
     letter-spacing: 2px;
     font-size: 36px;
-    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    background-color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     color: #161616; /* GLOBAL BACKGROUND BLACK */
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1202,7 +1202,7 @@ background-color: #161616 !important;
     font-size: 19px;
     color: #161616; /* GLOBAL BACKGROUND BLACK */
     margin: 0;
-    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    background-color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     padding: 20px 0;
     margin-bottom: 20px;
 }
@@ -1568,7 +1568,7 @@ background-color: #161616 !important;
 
 .row-info .glyphicon {
     font-size: 28px;
-    color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     margin-top: 24px;
     width: 36px;
 }
@@ -1777,7 +1777,7 @@ textarea.form-control {
 }
 
 .wrapper-social .fa {
-    border: solid 4px #FF6600; /*GLOBAL COLOR ORANGE*/;
+    border: solid 4px #0078d7; /*GLOBAL COLOR ORANGE*/;
     width: 100px;
     height: 100px;
     -webkit-border-radius: 50%;
@@ -1793,7 +1793,7 @@ textarea.form-control {
     -o-transition: all ease-in .15s;
     transition: all ease-in .15s;
     color: #28d8b3;
-    background-color: #FF6600; /*GLOBAL COLOR ORANGE*/;
+    background-color: #0078d7; /*GLOBAL COLOR ORANGE*/;
 }
 
 /* FOOTER BOTTOM
