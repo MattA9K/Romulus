@@ -44,7 +44,7 @@ body {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     color: #E9E9E9;
-    background-color: #161616;
+    background-color: #f8f8f4;
     font-weight: 300;
 }
 
@@ -96,7 +96,7 @@ a.btn-flat,
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     -webkit-transition: all ease-in .15s;
     -moz-transition: all ease-in .15s;
     -o-transition: all ease-in .15s;
@@ -105,7 +105,7 @@ a.btn-flat,
 
 .btn-flat:hover {
     background-color: #1ccba8;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .btn-flat:focus,
@@ -116,7 +116,7 @@ a.btn-flat,
     -moz-box-shadow: none;
     box-shadow: none;
     background-color: #18ad90;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .btn-flat:focus,
@@ -133,8 +133,8 @@ a.btn-white {
     display: inline-block;
     padding: 20px 30px;
     text-transform: uppercase;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
-    border: solid #161616 /* GLOBAL BACKGROUND BLACK */ 2px;
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
+    border: solid #f8f8f4 /* GLOBAL BACKGROUND BLACK */ 2px;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
@@ -145,7 +145,7 @@ a.btn-white {
 }
 
 a.btn-white:hover {
-    background-color: #161616; /* GLOBAL BACKGROUND BLACK */
+    background-color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     color: #0078d7; /*GLOBAL COLOR ORANGE*/;
 }
 
@@ -222,7 +222,7 @@ a.btn-white:focus {
     background-color: rgba(0,0,0,0.4);
     font-size: 20px;
     line-height: 0;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     padding: 40px 20px;
 }
 
@@ -278,7 +278,7 @@ a.btn-white:focus {
    ================================================== */
 
 .navbar-inverse {
-    background-color: #161616; /*GLOBAL COLOR ORANGE*/
+    background-color: #f8f8f4; /*GLOBAL COLOR ORANGE*/
 }
 
 .bg-intro,
@@ -296,7 +296,7 @@ a.btn-white:focus {
 }
 
 .bg-blog {
-    background-color: #161616 /* GLOBAL BACKGROUND BLACK */
+    background-color: #f8f8f4 /* GLOBAL BACKGROUND BLACK */
 }
 
 .bg-team {
@@ -423,11 +423,11 @@ a.btn-white:focus {
 }
 
 .dropdown .divider {
-    background-color: #161616
+    background-color: #f8f8f4
 }
 
 .dropdown-menu {
-background-color: #161616 !important;
+background-color: #f8f8f4 !important;
 }
 
 .dropdown-menu li a:hover {
@@ -436,7 +436,7 @@ background-color: #161616 !important;
 }
 
 .dropdown-menu li a:active {
-    background-color: #161616;
+    background-color: #f8f8f4;
     color: #a1a9bb;
 }
 
@@ -556,7 +556,7 @@ background-color: #161616 !important;
 .subtitle-intro {
     line-height: 32px;
     letter-spacing: 1px;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     font-size: 19px;
     margin-bottom: 14px;
     padding-bottom: 0;
@@ -632,7 +632,7 @@ background-color: #161616 !important;
 
 .bg-features {
     text-align: center;
-    background-color: #161616;
+    background-color: #f8f8f4;
 }
 
 .row-features {
@@ -799,7 +799,7 @@ background-color: #161616 !important;
 .bg-services {
     min-height: 100px;
     text-align: center;
-    background-color: #161616;
+    background-color: #f8f8f4;
 }
 
 .col-services {
@@ -981,7 +981,7 @@ background-color: #161616 !important;
 
 .ul-portfolio li:hover {
     background-color: #0078d7; /*GLOBAL COLOR BLUE*/
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .ul-portfolio li:focus,
@@ -992,7 +992,7 @@ background-color: #161616 !important;
 
 .ul-portfolio li.active {
     background-color: #0078d7; /*GLOBAL COLOR BLUE*/
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .hr-portfolio {
@@ -1044,7 +1044,7 @@ background-color: #161616 !important;
     opacity: 0.2;
     overflow: hidden;
     visibility: hidden;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     position: absolute;
     display: block;
     -webkit-border-radius: 50%;
@@ -1087,7 +1087,7 @@ background-color: #161616 !important;
     padding-left: 24px;
     padding-top: 24px;
     font-size: 60px;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .img-responsive {
@@ -1117,21 +1117,21 @@ background-color: #161616 !important;
 @media (min-width:768px) { 
 	.bg-portfolio {
 	    min-height: 1100px;
-	    background-color: #161616;
+	    background-color: #f8f8f4;
 	}
 }
 
 @media (min-width:992px) { 
 	.bg-portfolio {
 	    min-height: 1290px;
-	    background-color: #161616;
+	    background-color: #f8f8f4;
 	}
 }
 
 @media (min-width:1200px) { 
 	.bg-portfolio {
 	    min-height: 1450px;
-	    background-color: #161616;
+	    background-color: #f8f8f4;
 	}
 }
 
@@ -1148,7 +1148,7 @@ background-color: #161616 !important;
 
 .wrapper-plan {
     text-align: center;
-    background-color: #161616; /* GLOBAL BACKGROUND BLACK */
+    background-color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -1185,7 +1185,7 @@ background-color: #161616 !important;
     letter-spacing: 2px;
     font-size: 36px;
     background-color: #0078d7; /*GLOBAL COLOR ORANGE*/;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1200,7 +1200,7 @@ background-color: #161616 !important;
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 19px;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     margin: 0;
     background-color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     padding: 20px 0;
@@ -1217,7 +1217,7 @@ background-color: #161616 !important;
 .plan-sign {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
     display: block;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     background-color: #000066; /*GLOBAL COLOR BLUE*/
     margin: 20px auto 0;
     font-weight: 600;
@@ -1231,13 +1231,13 @@ background-color: #161616 !important;
 
 .plan-sign:hover {
     background-color: #1ccba8;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .plan-sign:active,
 .plan-sign:focus {
     background-color: #18ad90;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 /* BLOG
@@ -1333,7 +1333,7 @@ background-color: #161616 !important;
 
 .bg-quote h5 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 60px;
@@ -1357,14 +1357,14 @@ background-color: #161616 !important;
 
 .bg-team .header-title,
 .bg-team .subtitle {
-    color: #161616 /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4 /* GLOBAL BACKGROUND BLACK */
 }
 
 .team-title {
     font-size: 30px;
     letter-spacing: normal;
     font-weight: 700;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .team-subtitle {
@@ -1372,11 +1372,11 @@ background-color: #161616 !important;
     margin: 0 auto;
     max-width: 190px;
     font-size: 18px;
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .bg-team hr {
-    border-color: #161616 /* GLOBAL BACKGROUND BLACK */
+    border-color: #f8f8f4 /* GLOBAL BACKGROUND BLACK */
 }
 
 .row-team {
@@ -1453,7 +1453,7 @@ background-color: #161616 !important;
 
 .wrapper-team-pic:hover .team-icon:hover {
     background-color: #000066; /*GLOBAL COLOR BLUE*/
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
 .team-t {
@@ -1685,7 +1685,7 @@ textarea.form-control {
 }
 
 .error {
-    color: #161616; /* GLOBAL BACKGROUND BLACK */
+    color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
     background-color: #000066; /*GLOBAL COLOR BLUE*/
     border: solid 2px #16a085;
     -webkit-border-radius: 4px;
