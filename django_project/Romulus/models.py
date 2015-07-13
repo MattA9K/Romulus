@@ -9,7 +9,7 @@ class ContactForm(models.Model):
     birth_date = models.DateTimeField(default=time.localtime())
 
 class PageHit(models.Model):
-    pagehit_time = models.DateTimeField(default=datetime.datetime.now)
+    pagehit_time = models.DateTimeField(auto_now_add=True, blank=True)
     remote_address = models.CharField(max_length=150)
     user_agent = models.CharField(max_length=150)
     referer = models.CharField(max_length=150)
