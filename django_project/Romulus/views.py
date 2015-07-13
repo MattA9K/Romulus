@@ -14,17 +14,17 @@ def index(request):
     try:
         hit.remote_address=request.META['REMOTE_ADDR']
     except:
-        hit.remote_address='✖'
+        hit.remote_address='x'
 
     try:
         hit.user_agent=request.META['HTTP_USER_AGENT']
     except:
-        hit.user_agent='✖'
+        hit.user_agent='x'
 
     try:
         hit.referer=request.META['HTTP_REFERER']
     except:
-        hit.referer='✖'
+        hit.referer='x'
     hit.save()
     return render_to_response('index.html')
 
