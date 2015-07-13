@@ -92,7 +92,7 @@ a.btn-flat,
     display: inline-block;
     text-transform: uppercase;
     background-color: #0078d7; /*GLOBAL COLOR BLUE*/
-    border-bottom: solid 2px #25caa8;
+    border-bottom: solid 2px #0078d7;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -377,7 +377,7 @@ a.btn-white:focus {
 }
 
 .navbar-inverse .navbar-toggle:hover {
-    background-color: #25CAA8;
+    background-color: #0078d7;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -1304,7 +1304,7 @@ background-color: #f8f8f4 !important;
     font-weight: 600;
     margin-top: 20px;
     padding: 18px 28px;
-    border-bottom: solid 2px #25caa8;
+    border-bottom: solid 2px #0078d7;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
@@ -1585,7 +1585,7 @@ background-color: #f8f8f4 !important;
 .title-contact {
     margin-top: 0;
     margin-bottom: 6px;
-    color: #25caa8;
+    color: #0078d7;
     font-size: 28px;
     font-weight: 700;
 }
