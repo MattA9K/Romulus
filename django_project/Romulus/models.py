@@ -6,7 +6,7 @@ class ContactForm(models.Model):
     Title = models.CharField(max_length=50)
     Email = models.CharField(max_length=50)
     Body = models.TextField()
-    birth_date = models.DateTimeField(default=datetime.datetime.now)
+    birth_date = models.DateTimeField(default=time.localtime())
 
 class PageHit(models.Model):
     pagehit_time = models.DateTimeField(default=datetime.datetime.now)
