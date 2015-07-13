@@ -878,7 +878,8 @@ background-color: #f8f8f4 !important;
 
 .imac-p {
     font-weight: 400;
-    color: #bfc4d0;
+    background-color: #0078d7; /*GLOBAL COLOR BLUE*/
+    color: #ffffff; /*GLOBAL COLOR BLUE*/
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 14px;
