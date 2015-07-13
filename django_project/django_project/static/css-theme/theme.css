@@ -91,7 +91,7 @@ a.btn-flat,
     border: none;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #1ccba8; /*GLOBAL COLOR BLUE*/
     border-bottom: solid 2px #25caa8;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -300,7 +300,7 @@ a.btn-white:focus {
 }
 
 .bg-team {
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #1ccba8; /*GLOBAL COLOR BLUE*/
 }
 
 .bg-subscribe {
@@ -730,7 +730,7 @@ background-color: #f8f8f4 !important;
     padding-top: 8%;
     margin-right: .4em;
     margin-bottom: .98em;
-    color: #000066; /*GLOBAL COLOR BLUE*/
+    color: #1ccba8; /*GLOBAL COLOR BLUE*/
     background: #000;
     /* The Fallback */
     background-color: rgba(0,0,0,0.3);
@@ -890,9 +890,9 @@ background-color: #f8f8f4 !important;
 
 .imac-p span {
     font-size: 20px;
-    color: #000066; /*GLOBAL COLOR BLUE*/
+    color: #1ccba8; /*GLOBAL COLOR BLUE*/
     margin-right: 20px;
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #1ccba8; /*GLOBAL COLOR BLUE*/
     color: #0078d7; /*GLOBAL COLOR ORANGE*/;
     height: 32px;
     width: 32px;
@@ -1165,7 +1165,7 @@ background-color: #f8f8f4 !important;
 }
 
 .wrapper-plan:hover .plan-price {
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #1ccba8; /*GLOBAL COLOR BLUE*/
 }
 
 .featured {
@@ -1218,7 +1218,7 @@ background-color: #f8f8f4 !important;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
     display: block;
     color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #1ccba8; /*GLOBAL COLOR BLUE*/
     margin: 20px auto 0;
     font-weight: 600;
     width: 70%;
@@ -1436,8 +1436,8 @@ background-color: #f8f8f4 !important;
     height: 60px;
     width: 60px;
     padding-top: 10px;
-    border: solid 2px #000066; /*GLOBAL COLOR BLUE*/
-    color: #000066; /*GLOBAL COLOR BLUE*/
+    border: solid 2px #1ccba8; /*GLOBAL COLOR BLUE*/
+    color: #1ccba8; /*GLOBAL COLOR BLUE*/
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1452,7 +1452,7 @@ background-color: #f8f8f4 !important;
 }
 
 .wrapper-team-pic:hover .team-icon:hover {
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #1ccba8; /*GLOBAL COLOR BLUE*/
     color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
 }
 
@@ -1686,7 +1686,7 @@ textarea.form-control {
 
 .error {
     color: #f8f8f4; /* GLOBAL BACKGROUND BLACK */
-    background-color: #000066; /*GLOBAL COLOR BLUE*/
+    background-color: #1ccba8; /*GLOBAL COLOR BLUE*/
     border: solid 2px #16a085;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
